@@ -3,6 +3,9 @@
 **/cache/
 **/broadcast/
 **/lib/
+# …pero la dApp de clase 3 también tiene una carpeta `lib/` (wagmi config + ABIs).
+!clase-3/dapp/lib/
+!clase-3/dapp/lib/**
 
 # Env
 **/.env
