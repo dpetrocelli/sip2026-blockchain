@@ -1,20 +1,23 @@
 # Foundry
-out/
-cache/
-broadcast/
-
-# Dependencies
-lib/
+**/out/
+**/cache/
+**/broadcast/
+**/lib/
 
 # Env
-.env
-.env.local
+**/.env
+**/.env.local
+**/.env.*.local
 
-# OS
+# Node
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo
+**/next-env.d.ts.bak
+
+# OS / editor
 .DS_Store
 Thumbs.db
-
-# Editor
 .vscode/
 .idea/
 *.swp
